@@ -15,6 +15,6 @@ casper.waitForSelector("#DataGrid", function(){
   this.log("Wait for query results success");
 
   this.echo(this.getHTML());
-}, null, 10000);
+}, null, 60000);
 
 casper.run();
